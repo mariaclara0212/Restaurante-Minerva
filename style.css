@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* cabeçalho - header*/
+#landing-page {
+
+    /*largura adaptável*/
+    width: 100%;
+    
+    /*config fonte*/
+    font: 500 18px 'Poppins';
+
+    /*margem adaptável*/
+    margin: 0 auto;
+
+    /*espaçamento entre os elementos*/
+    padding: 10px 0px 10px 0px;
+
+}
+
+#landing-page header {
+
+    /*alinhamento em linha*/
+    display: flex;
+
+    /*alinhar verticalmente*/
+    align-items: center;
+
+    /*alinhar horizontalmente*/
+    justify-content: space-between;
+
+    /*espaçamento entre os elementos*/
+    padding: 0 70px;
+
+    /*linha*/
+    border-bottom: 1px solid #BDBDBD;
+
+
+}
+
+#landing-page header img {
+
+    /*largura imagem*/
+    width: 120px;
+}
+
+#landing-page header nav a {
+
+    /*desabilitando configurações de a*/
+    text-decoration: none;
+
+    /*espaçamento entre elementos*/
+    padding-left: 40px;
+
+    /*definindo a cor do texto*/
+    color: #000000;
+
+}
+
+span {
+    color: #FFA216;
+}
+
+.landing-main {
+
+    /*imagem de fundo*/
+    background-image: url(./assets/lading-page.jpg);
+
+    /*ajeitar imagem*/
+    background-size: cover;
+
+    /*altura - máxima ao elemento da imagem*/
+    height: 100vh;
+
+    /*espaçamento dos elemtos*/
+    padding: 80px 50px;
+}
+
+/*Página inicial*/
+.landing-main .title-container h1 {
+
+    /*config fonte*/
+    font: 600 70px 'Poppins';
+
+    /*cor*/
+    color: #FFA216;
+
+}
+
+/*primeiro tipo de P*/
+.landing-main .title-container p:first-of-type {
+
+    /*espaçamento em baixo*/
+    margin-bottom: 10px;
+}
+
+.landing-main .title-container p {
+
+    font: 300 28px 'Poppins';
+
+    /*máximo de largura doparágrafo*/
+    max-width: 850px;
+
+}
+
+
+/*botoes*/
+.landing-main .buttons-container-main button {
+
+
+    /*largura e altura do botao*/
+    height: 120px;
+    width: 430px;
+
+    /*cor do botão*/
+    background-color: #FFA216;
+
+    /*sem borda*/
+    border: none;
+
+    /*arredondamento*/
+    border-radius: 20px;
+
+    /*fonte*/
+    font: 700 30px 'Poppins';
+
+    /*cor da fonte*/
+    color: #FFFFFF;
+
+    /*sombreamento*/
+    box-shadow: 3px 8px 10px #9c9c9c;
+
+}
+
+.landing-main .buttons-container-main button:hover {
+
+    /*aumentar skala ao passar o mouse*/
+    transform: scale(1.1);
+
+    /*tempo de transição*/
+    transition: 0.15s;
+
+}
+
+.landing-main .buttons-container-main button:first-child {
+
+    /*trocando as dimensões*/
+    height: 120px;
+    width: 220px;
+
+    /*margem na direita*/
+    margin-right: 30px;
+
+}
+
+/*caixa espaçamento*/
+.landing-main .buttons-container-main {
+
+    margin-top: 55px;
+
+}
+/*página sobre*/ 
+#about-content {
+
+    /*alinhamento*/
+    display: flex;
+
+    /*alinhamento dos elementos - centro */
+    align-items: center;
+
+    /*espaçamento dos elementos - menor*/
+    justify-content: space-evenly;
+
+    /*espaçamento entre os elementos*/
+    padding: 70px 20px;
+}
+
+
+#about-content .about-image  img{
+
+    /*tamanho imagem*/
+    width: 450px;
+
+}
+
+/*centralizando a imagem*/
+#about-content .about-info img {
+    padding: 0 50px;
+}
+
+#about-content .about-info p {
+
+    /*alinhamento do texto no centro*/
+    text-align: center;
+
+    /*enxutar - encolher*/
+    max-width: 500px;
+
+    /*conf font*/
+    font: 300 18px 'Poppins';
+
+    margin-top: 10px;
+}
+
+/*MENU*/
+#menu-container {
+
+    /*imagem de fundo*/
+    background-image: url(./assets/bg-menu.jpg);
+
+    /*remanejar a imagem*/
+    background-size: cover;
+
+    /*altura total da imagem*/
+    height: 100vh;
+}
+
+#menu-container .title-menu-conteiner {
+
+    padding-top: 70px;
+
+    text-align: right;
+
+}
+
+#menu-container .title-menu-conteiner h1 {
+
+    font: 600 60px 'Poppins';
+
+    color: #FFA216;    
+
+}
+
+#menu-container .title-menu-conteiner p {
+
+    font: 400 22px 'Poppins';
+
+    /*espaçamento entre linhas*/
+    line-height: 1.3;
+}
+
+/*botoes*/
+#menu-container .buttons-container-menu {
+
+    display: flex;
+
+    /*alinhar a direita*/
+    justify-content: flex-end;
+
+    padding: 20px 20px;
+
+}
+
+#menu-container .buttons-container-menu button {
+
+    width: 410px;
+    height: 250px;
+
+    border: 1px solid #E1E1E1;  
+
+    border-radius: 5px;
+
+    margin-right: 15px;
+
+    box-shadow: 4px 8px 10px #b4b4b4;
+}
+
+/*botão todos os p depois do botao*/
+#menu-container .buttons-container-menu button > p {
+
+    font: 600 30px 'Poppins';
+
+    color: #FFA216;
+
+    text-align: left;
+
+    padding-left: 15px;
+
+}
+
+#menu-container .buttons-container-menu .molecular  {
+    background-image: url(./assets/comida/molecular-certo.png);
+    background-size: cover;
+
+}
+
+#menu-container .buttons-container-menu .bebidas {
+    background-image: url(./assets/comida/bebidas-certo.png);
+    background-size: cover;
+
+}
+
+#menu-container .buttons-container-menu .classic {
+    background-image: url(./assets/comida/classica-certo.png);
+    background-size: cover;
+
+}
+
+#menu-container .buttons-container-menu .comfort {
+    background-image: url(./assets/comida/confort-certo.png);
+    background-size: cover;
+
+}
+
+#menu-container .buttons-container-menu button:hover {
+
+     /*aumentar skala ao passar o mouse*/
+     transform: scale(1.1);
+
+     /*tempo de transição*/
+     transition: 0.15s;
+
+    box-shadow: 3px 8px 10px #777777;
+}
+
+
+/*RODAPÉ*/
+
+#contact-content {
+    margin-top: 30px;
+
+    text-align: center;
+}
+
+#contact-content h1{
+
+    text-align: center;
+
+    font: 600 50px 'Roboto';
+
+    color: #FFA216;
+
+    padding: 20px 0;
+}
+
+#contact-content form {
+
+    text-align: center;
+}
+
+#contact-content form input {
+
+    margin-bottom: 15px;
+
+    width: 500px;
+
+    height: 50px;
+
+    font-size: 20px;
+
+    color: #FFA216;
+
+    border: 1px solid #E1E1E1;
+
+    padding-left: 10px;
+}
+
+#contact-content form input::placeholder {
+
+    font: 500 20px 'Poppins';
+
+    color: #E1E1E1;
+}
+
+#contact-content form textarea {
+
+    /*mínima largura*/
+    min-width: 1005px;
+
+    /*mínima altura*/
+    min-height: 150px;
+
+    /*não permite o usuário aumentar o tamanho do campo*/
+    resize: none;
+
+    margin-top: 10px;
+
+    color: #FFA216;
+
+    border: 1px solid #E1E1E1;
+
+    padding-left: 10px;
+
+    font-size: 20px;
+}
+
+#contact-content form textarea::placeholder {
+
+    font: 500 20px 'Poppins';
+
+    color: #E1E1E1;
+
+}
+
+#contact-content button {
+
+    margin: 50px 5px;
+
+    width: 150px;
+
+    height: 50px;
+
+    background-color: #FFA216;
+
+    border: none;
+
+    color: #F7F7F7;
+
+    font: 600 20px 'Poppins';
+
+    border-radius: 5px;
+}
+
+footer {
+
+    border-top: 1px solid #E1E1E1;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    /*alinhando verticalmente*/
+    align-items: center; 
+}
+
+footer p { 
+
+    font: 400 16px 'Poppins';
+    font-weight: bold;
+}
+
+footer .flaticon img{ 
+
+    padding: 10px 5px;
+}
