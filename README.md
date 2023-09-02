@@ -1,5 +1,5 @@
 # 🍽️ Restaurante Minerva
-Café Noir é um projeto de uma landing page focada em um restaurante goumert.
+Restaurante Minerva é um projeto de uma landing page focada em um restaurante goumert.
 
 
 <img src="/assets/capa (1).png"/>
